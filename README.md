@@ -3,15 +3,20 @@ A comprehensive task management system featuring a Spring Boot 4.0 backend and a
 
 ### Project Structure
  -taskmanager/taskmanager: The Java backend containing the REST API.
+ 
  -taskmanager-frontend: The React.js frontend application.
 
  ### Tech Stack
 Backend: Java 25, Spring Boot 4.0.3, Spring Security, MySQL, JWT (JSON Web Token), Lombok.
+
 Frontend: React 19.2.4, Axios for API calls, React Router DOM for navigation.
 
 ### API Endpoints
+
 ## Authentication (/api/v1/auth)
+
 POST /register: Register a new user account.
+
 POST /login: Authenticate and receive a JWT.
 
 ### Task Management (/api/v1/tasks)
