@@ -21,19 +21,29 @@ POST /login: Authenticate and receive a JWT.
 
 ### Task Management (/api/v1/tasks)
 All endpoints below require JWT Authentication-
+
 POST /: Create a new task.
+
 GET /: Retrieve all tasks for the logged-in user.
+
 GET /{id}: Retrieve a specific task by ID.
+
 PUT /{id}: Update an existing task.
+
 DELETE /{id}: Delete a task.
 
 ### Admin Operations (/api/v1/admin)
 Requires ROLE_ADMIN authority.
+
 GET /users: List all registered users.
+
 GET /tasks: List all tasks across the entire system.
 
 ### 📝 Features
 (i) JWT Security: Secure access to task resources using token-based authentication.
+
 (ii) Role-Based Access: Specialized administrative views to monitor all users and tasks.
+
 (iii) Full CRUD: Complete management lifecycle for personal tasks.
+
 (iv) Responsive Frontend: Modern React interface built with version 19.
